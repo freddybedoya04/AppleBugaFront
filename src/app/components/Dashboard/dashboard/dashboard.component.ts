@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-
+  Ocultar(){
+    let check=document.querySelector('#check') as HTMLInputElement;
+    check.checked=false;
+  }
 }
